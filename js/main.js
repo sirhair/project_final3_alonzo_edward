@@ -4,6 +4,6 @@ $(document).ready ( function () {
     "img/bar.jpg"
   , "img/dragon.jpg"
   , "img/entrance.jpg"
-  , "img/keg.jpg"
+  , "img/kegs.jpg"
 ], {duration: 3000, fade: 0});
 });
