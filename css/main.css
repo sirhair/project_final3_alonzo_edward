@@ -91,9 +91,14 @@ main
   max-width: 100%;
 }
 
+
+header .ground{
+  width:100%;
+  margin-top:-4.5em;
+}
 #companyname{
   margin:0;
-  padding: 1.5rem .25em .25em .35em;
+  padding: 4.5rem .25em .25em .35em;
   color:#feffef;
 }
 
@@ -102,11 +107,6 @@ main
 .ground{
   background-color:#827769;
 
-}
-
-header .ground{
-  width:100%;
-  margin-top:-1.5em;
 }
 
 #container footer{
