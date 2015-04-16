@@ -1,12 +1,12 @@
 html{
-	font-size:16px;
-	font-family: 'Lora', serif;
-	background-color:#40302b;
+  font-size:16px;
+  font-family: 'Lora', serif;
+  background-color:#40302b;
 }
 
 
 main{
-	clear:both;
+  clear:both;
 }
 
 section {
@@ -16,206 +16,206 @@ aside {
 }
 
 article{
-	clear:both;
+  clear:both;
 }
 
 img {
-	padding:0;
-	margin:0;
-	max-width:100%;
+  padding:0;
+  margin:0;
+  max-width:100%;
 
 }
 
 p{
-	max-width: 52em;
+  max-width: 52em;
 }
 
 h1{
-	font-family: 'Metamorphous', cursive;
-	color:#822c2f;
+  font-family: 'Metamorphous', cursive;
+  color:#822c2f;
 }
 
 h2{
-	font-size: 1.3rem;
-	font-weight:bold;
+  font-size: 1.3rem;
+  font-weight:bold;
 }
 
 ul{
-	padding:0;
-	margin:0;
-	list-style-type: none;
+  padding:0;
+  margin:0;
+  list-style-type: none;
 }
 
 li{
-	padding:0;
-	margin:0;
-	height:auto;
+  padding:0;
+  margin:0;
+  height:auto;
 }
 
 
 /********************* IDs ******************/
 #container header{
-	padding-bottom:2rem;
+  padding-bottom:2rem;
 }
 
 #container footer{
-	clear:both;
-	padding-bottom:2rem;
+  clear:both;
+  padding-bottom:2rem;
 }
 #container{
-	margin:0 auto;
-	max-width:82em;
-	background-color: #feffef;
-	padding:2em;
+  margin:0 auto;
+  max-width:82em;
+  background-color: #feffef;
+  padding:2em;
 }
 
 #sitehead{
-	background: url("../img/prancing-pony-text.svg") 100% no-repeat;
+  background: url("../img/prancing-pony-text.svg") 100% no-repeat;
 }
 
 #logo{
-	display:block;
-	margin:0 auto;
-	width:20rem;
-	max-width: 100%;
+  display:block;
+  margin:0 auto;
+  width:20rem;
+  max-width: 100%;
 }
 
 #companyname{
-	display:none;
+  display:none;
 }
 
 
 /************************** classes ******************/
 
 .clearboth{
-	clear:both;
+  clear:both;
 }
 
 .ground{
-	background-color:#827769;
+  background-color:#827769;
 
 }
 
 header .ground{
-	width:100%;
-	height:3em;
-	margin-top:-1.5em;
+  width:100%;
+  height:3em;
+  margin-top:-1.5em;
 }
 
 #container footer{
-	margin-top:2em;
-	min-height: 3em;
+  margin-top:2em;
+  min-height: 3em;
 }
 
 .footlinks li{
-	display: inline;
+  display: inline;
 }
 
 .aesthetics, .swatches{
-	clear:both
+  clear:both
 }
 
 .aesthetic, .swatch {
-	float:left;
-	margin:.1rem;
+  float:left;
+  margin:.1rem;
 }
 
 .aesthetic img{
 }
 .swatch {
-	width: 100%;
-	height: 10rem;
-	border:1px dashed #40302b;
+  width: 100%;
+  height: 10rem;
+  border:1px dashed #40302b;
 }
 
 .swatch:nth-of-type(1){
-	background-color:#ae0508;
-	/*bright red*/
+  background-color:#ae0508;
+  /*bright red*/
 }
 .swatch:nth-of-type(2){
-	background-color:#40302b;
-	/*dark brown*/
+  background-color:#40302b;
+  /*dark brown*/
 }
 .swatch:nth-of-type(3){
-	background-color:#822c2f;
-	/*dark red*/
+  background-color:#822c2f;
+  /*dark red*/
 }
 .swatch:nth-of-type(4){
-	background-color:#827769;
-	/*light brown*/
+  background-color:#827769;
+  /*light brown*/
 }
 .swatch:nth-of-type(5){
-	background-color:#feffef;
-	/*pony white*/
+  background-color:#feffef;
+  /*pony white*/
 }
 
 /********************* LINKS ******************/
 
 a{
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a:link{
-	color:#ae0508;
+  color:#ae0508;
 }
 a:hover{
-	color:#822c2f
+  color:#822c2f
 }
 a:active{
-	color:#feffef;
+  color:#feffef;
 }
 a:visited{
-	color:#827769;
+  color:#827769;
 }
 
 /********************* Forms ******************/
 input[type=submit]{
-	background-color:#ae0508;
-	outline: .5em solid #ae0508;
-	padding:.25em .5em;
-	font-family: 'Metamorphous', cursive;
-	font-size: 1.1em;
-	margin: .75rem;
-	border-style:none;
+  background-color:#ae0508;
+  outline: .5em solid #ae0508;
+  padding:.25em .5em;
+  font-family: 'Metamorphous', cursive;
+  font-size: 1.1em;
+  margin: .75rem;
+  border-style:none;
 }
 input[type=submit]:hover{
-	outline: .5em solid #822c2f;
+  outline: .5em solid #822c2f;
 }
 input[type=submit]:active{
-	outline: .5em solid #feffef;
+  outline: .5em solid #feffef;
 }
 input[type=button]{
-	font-family: 'Metamorphous', cursive;
-	font-size: 1.1em;
-	outline: .25em solid #827769;
-	padding:.25em .5em;
-	background-color:#827769;
-	margin:.5rem;
-	border-style:none;
+  font-family: 'Metamorphous', cursive;
+  font-size: 1.1em;
+  outline: .25em solid #827769;
+  padding:.25em .5em;
+  background-color:#827769;
+  margin:.5rem;
+  border-style:none;
 }
 input[type=button]:hover{
-	outline: .25em solid #40302b;
+  outline: .25em solid #40302b;
 }
 input[type=button]:active{
-	outline: .25em solid #feffef;
+  outline: .25em solid #feffef;
 }
 
 
 /********************* BREAKPOINTS ******************/
 /*sidebar breakpoint*/
 @media screen and (min-width: 750px){
-	section {
-		width:64%;
-		float:left;
-		margin-right: 2%;
-	}
+  section {
+    width:64%;
+    float:left;
+    margin-right: 2%;
+  }
 
-	aside {
-		width:33%;
-		float:left;
-	}
+  aside {
+    width:33%;
+    float:left;
+  }
 
-	.aesthetic img{
-		max-width:24em;
-	}
+  .aesthetic img{
+    max-width:24em;
+  }
 }
