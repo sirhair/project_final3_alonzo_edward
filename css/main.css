@@ -101,7 +101,22 @@ header .ground{
   padding: 4.5rem .25em .25em .35em;
   color:#feffef;
 }
-
+header nav{
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #ae0508;
+}
+header nav h1{
+  position:absolute;
+  top:-999999px;
+  left:-999999px;
+}
+header nav li{
+  display:inline-block;
+}
+header nav li+li{
+  margin-left:3em;
+}
 /************************** classes ******************/
 
 .ground{
