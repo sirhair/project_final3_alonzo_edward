@@ -58,7 +58,7 @@ li{
 
 
 /********************* IDs ******************/
-#container header{
+#container>header{
   padding-bottom:2rem;
 }
 
