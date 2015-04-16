@@ -106,7 +106,6 @@ header .ground{
 }
 header nav{
   margin-top: 2rem;
-  padding: 1rem;
   background-color: #ae0508;
 }
 header nav h1{
@@ -117,9 +116,23 @@ header nav h1{
 header nav li{
   display:inline-block;
 }
-header nav li+li{
-  margin-left:3em;
+header nav li a{
+  display:inline-block;
+  padding: 1em;
 }
+header nav li a:link, header nav li a:visited{
+  color:#feffef;
+}
+header nav .active a:link, header nav .active a:visited{
+  color:#ae0508;
+ }
+header nav li a:hover, header nav .active a:hover{
+  color:#822c2f
+}
+header .active{
+  background-color: #feffef;
+}
+
 /************************** classes ******************/
 
 .ground{
