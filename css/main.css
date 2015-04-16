@@ -16,7 +16,7 @@
   /*color:#feffef;*/
 
 
-
+/****************************Base Elements*/
 html{
   font-size:16px;
   line-height: 1.5em;
@@ -59,99 +59,7 @@ li{
   height:auto;
 }
 
-
-/********************* IDs ******************/
-#container>header{
-  padding-bottom:2rem;
-}
-
-#container footer{
-  clear:both;
-  padding-bottom:2rem;
-}
-#container{
-  margin:0 auto;
-  max-width:82em;
-  padding:2em;
-}
-
-main
-{
-    background-color: #feffef;
-    overflow:auto;
-    padding:2rem;
-}
-.clearboth:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#logo{
-  display:block;
-  margin:0 auto;
-  width:20rem;
-  max-width: 100%;
-}
-
-
-header .ground{
-  width:100%;
-  margin-top:-4.5em;
-}
-#companyname{
-  margin:0;
-  padding: 4.5rem .25em .25em .35em;
-  color:#feffef;
-}
-header nav{
-  margin-top: 2rem;
-  background-color: #ae0508;
-}
-header nav h1{
-  position:absolute;
-  top:-999999px;
-  left:-999999px;
-}
-header nav li{
-  display:inline-block;
-}
-header nav li a{
-  display:inline-block;
-  padding: 1em;
-}
-header nav li a:link, header nav li a:visited{
-  color:#feffef;
-}
-header nav .active a:link, header nav .active a:visited{
-  color:#ae0508;
- }
-header nav li a:hover, header nav .active a:hover{
-  color:#822c2f
-}
-header .active{
-  background-color: #feffef;
-}
-
-/************************** classes ******************/
-
-.ground{
-  background-color:#827769;
-
-}
-
-#container footer{
-  margin-top:2em;
-  min-height: 3em;
-}
-
-.footlinks li{
-  display: inline;
-}
-
-
-/********************* LINKS ******************/
-
+/****************************LINKS*/
 a{
   text-decoration: none;
 }
@@ -168,6 +76,94 @@ a:active{
 a:visited{
   color:#827769;
 }
+
+
+/****************************layout*/
+.ground{
+  background-color:#827769;
+
+}
+
+.clearboth:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#container > header, #container > footer{
+  margin-bottom:2rem;
+}
+
+#container{
+  margin:0 auto;
+  max-width:82em;
+  padding:2em;
+}
+
+header .ground{
+  width:100%;
+  margin-top:-4.5em;
+}
+
+#logo{
+  display:block;
+  margin:0 auto;
+  width:20rem;
+  max-width: 100%;
+}
+
+#companyname{
+  margin:0;
+  padding: 4.5rem .25em .25em .35em;
+  color:#feffef;
+}
+
+#container > nav{
+  margin-bottom: 2rem;
+  background-color: #ae0508;
+}
+#container > nav h1{
+  position:absolute;
+  top:-999999px;
+  left:-999999px;
+}
+#container > nav ul li{
+  display:inline-block;
+}
+#container > nav ul li a{
+  display:inline-block;
+  padding: 1em;
+}
+#container > nav ul li a:link, #container > nav ul li a:visited{
+  color:#feffef;
+}
+#container > nav ul .active a:link, #container > nav ul .active a:visited{
+  color:#ae0508;
+ }
+#container > nav ul li a:hover, #container > nav ul .active a:hover{
+  color:#822c2f
+}
+#container  .active{
+  background-color: #feffef;
+}
+
+
+main
+{
+  background-color: #feffef;
+  overflow:auto;
+  padding:2rem;
+  margin-bottom: 2rem;
+}
+
+.footlinks li{
+  display: inline;
+}
+
+#container footer{
+  min-height: 5em;
+}
+
 
 /********************* Forms ******************/
 input[type=submit]{
