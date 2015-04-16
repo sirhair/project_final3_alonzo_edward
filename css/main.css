@@ -1,29 +1,32 @@
+
+/*****************Colors**************/
+  /*bright red*/
+  /*color:#ae0508;*/
+
+  /*dark brown*/
+  /*color:#40302b;*/
+
+  /*dark red*/
+  /*color:#822c2f;*/
+
+  /*light brown*/
+  /*color:#827769;*/
+
+  /*pony white*/
+  /*color:#feffef;*/
+
+
+
 html{
   font-size:16px;
   font-family: 'Lora', serif;
   background-color:#40302b;
 }
 
-
-main{
-  clear:both;
-}
-
-section {
-}
-
-aside {
-}
-
-article{
-  clear:both;
-}
-
 img {
   padding:0;
   margin:0;
   max-width:100%;
-
 }
 
 p{
@@ -87,10 +90,6 @@ li{
 
 /************************** classes ******************/
 
-.clearboth{
-  clear:both;
-}
-
 .ground{
   background-color:#827769;
 
@@ -111,43 +110,6 @@ header .ground{
   display: inline;
 }
 
-.aesthetics, .swatches{
-  clear:both
-}
-
-.aesthetic, .swatch {
-  float:left;
-  margin:.1rem;
-}
-
-.aesthetic img{
-}
-.swatch {
-  width: 100%;
-  height: 10rem;
-  border:1px dashed #40302b;
-}
-
-.swatch:nth-of-type(1){
-  background-color:#ae0508;
-  /*bright red*/
-}
-.swatch:nth-of-type(2){
-  background-color:#40302b;
-  /*dark brown*/
-}
-.swatch:nth-of-type(3){
-  background-color:#822c2f;
-  /*dark red*/
-}
-.swatch:nth-of-type(4){
-  background-color:#827769;
-  /*light brown*/
-}
-.swatch:nth-of-type(5){
-  background-color:#feffef;
-  /*pony white*/
-}
 
 /********************* LINKS ******************/
 
