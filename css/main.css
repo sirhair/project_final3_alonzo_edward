@@ -69,8 +69,19 @@ li{
 #container{
   margin:0 auto;
   max-width:82em;
-  background-color: #feffef;
   padding:2em;
+}
+
+main
+{
+    background-color: #feffef;
+    overflow:auto;
+    padding:2rem;
+}
+.clearboth:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #logo{
@@ -165,8 +176,8 @@ input[type=button]:active{
 @media screen and (min-width: 750px){
   section {
     width:64%;
-    float:left;
     margin-right: 2%;
+    float:left;
   }
 
   aside {
