@@ -255,7 +255,7 @@ input[type=button]:active{
   height: 4em;
   width: 8em;
   margin: 0 1em 1em 0;
-/*  background: rgba(33, 19, 50, 0.4); 827769*/
+background: rgba(174, 5, 8, 0.1);
 }
 
 .pence{
