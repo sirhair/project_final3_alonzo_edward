@@ -250,12 +250,12 @@ input[type=button]:active{
   font-size: 1.2rem;
   line-height: 1.3em;
   color: rgba(64, 48, 43, 0.9); /*40302b*/
-  width:30%;
   border: dashed 2px #40302b;
   height: 4em;
   width: 8em;
+  max-width:100%;
   margin: 0 1em 1em 0;
-background: rgba(174, 5, 8, 0.1);
+  background: rgba(174, 5, 8, 0.1);
 }
 
 .pence{
@@ -287,17 +287,18 @@ background: rgba(174, 5, 8, 0.1);
 
 /*******************Reservation Form styles*/
 
-fieldset {
+.regform{
+  /*display:inline-block;*/
+  max-width:100%;
   border:solid 1em #ae0508;
   padding:2em;
 }
-
-.regform{
-  display:inline-block;
+.regform p{
+  max-width: 100%;
 }
 
 .regform input, .regform textarea{
-  display:block;
+  display: block;
   font-size:1.2rem;
   max-width:100%;
 }
@@ -306,8 +307,4 @@ fieldset {
   width:20em;
   height:4em;
   max-width:100%;
-}
-
-.smaller{
-  height:200px;
 }
