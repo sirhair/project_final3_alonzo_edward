@@ -175,7 +175,7 @@ input[type=submit]{
   padding:.25em .5em;
   font-family: 'Metamorphous', cursive;
   font-size: 1.1em;
-  margin: .75rem;
+  margin: 1.5rem .75rem .75rem .75rem;
   border-style:none;
 }
 input[type=submit]:hover{
@@ -283,10 +283,31 @@ background: rgba(174, 5, 8, 0.1);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-*/}
+*/
 
 /*******************Reservation Form styles*/
 
-fieldset{
-  border:dashed 2px #ae0508;
+fieldset {
+  border:solid 1em #ae0508;
+  padding:2em;
+}
+
+.regform{
+  display:inline-block;
+}
+
+.regform input, .regform textarea{
+  display:block;
+  font-size:1.2rem;
+  max-width:100%;
+}
+
+.regform textarea{
+  width:20em;
+  height:4em;
+  max-width:100%;
+}
+
+.smaller{
+  height:200px;
 }

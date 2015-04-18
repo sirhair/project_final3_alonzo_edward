@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/vendor/owl.carousel.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -33,18 +34,20 @@
     <main>
 
       <section>
+        <header>
+          <h1>Inn and Reservations</h1>
+        </header>
+        <p>We are happy to serve all peoples. From the smallest hobbit to the tallest ent, we have a bed for you!</p>
 
-        <article>
-
-          <header>
-            <h1>Inn and Reservations</h1>
-          </header>
-
-        </article>
-
+        <div class="owl-carousel">
+          <div> <img src="img/bar-300.png" alt="The Prancing Pony Inn and Bar"> </div>
+          <div> <img src="img/entrance-300.png" alt="Entrance way"> </div>
+          <div> <img  class="smaller" src="img/inn-at-night-300.png" alt="The Inn at Night"> </div>
+          <div> <img class="smaller"  src="img/dragon-300.png" alt="Dragon woodwork"> </div>
+        </div>
         <article>
           <h1>Reservation Form</h1>
-          <form class="cmxform" id="regForm" method="get" action="">
+          <form class="regform" id="regForm" method="get" action="">
             <fieldset>
               <p><em>* denotes a required field</em></p>
               <p>
@@ -122,6 +125,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <script src="js/vendor/jquery.fittext.js"></script>
     <script src="js/vendor/jquery.validate.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
