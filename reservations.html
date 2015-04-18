@@ -39,22 +39,40 @@
           <header>
             <h1>Inn and Reservations</h1>
           </header>
-            <h2>Forelithe</h2>
-
-            <p>Adrahil, father of imrahil aldúya atanatar ii alcarin beornings crossings of erui deeping echad i sedryn elves of the havens ent-draughts fréawine greenfields greymantle horn of the mark irmo kingsfoil long winter lord of eregion men of dorthonion pipe-weed</p>
-            <h2>1 Lithe</h2>
-            <p> rhimdath tintallë vision of ilúvatar wheat whiteskins. Barach curufinwë deephallow dol amroth fang glorfindel of rivendell king of arthedain king of minas morgul legolin masterstone nirnaeth arnoediad nóm old toby hornblower orod-na-thôn rhîw rose vinyalondë.</p>
-            <h2>Mid-year's Day</h2>
-            <p> Aiglos androth barley (barliman butterbur) borondir cross-roads dor daedeloth downfallen dáin i eryn lasgalen estë galadhrim gildor inglorion glæmscrafu heir of anárion house of durin khand lake núrnen linhir mountain-trolls mountains of terror nan dungortheb éomer éadig.</p>
-            <h2>2 Lithe</h2>
-            <p>Amon gwareth beren erchamion borlach brilthor elanor gamgee elf-speech elvenesse elves of lórinand erulaitalë exiles of númenor falathrim fallohides fangorn forest gerontius took golden hathol heavy-handed hob gammidge hunter </p>
 
         </article>
 
         <article>
           <h1>Reservation Form</h1>
-          <input type="button" value="Regular Button">
-          <input type="submit" value="Submit Button">
+          <form class="cmxform" id="regForm" method="get" action="">
+            <fieldset>
+              <p><em>* denotes a required field</em></p>
+              <p>
+                <label for="cname">Name*</label>
+                <input id="cname" name="name" minlength="2" type="text" required>
+              </p>
+              <p>
+                <label for="cemail">E-Mail*</label>
+                <input id="cemail" type="email" name="email" required>
+              </p>
+              <p>
+                <label for="cadates">Arrival Date*</label>
+                <input id="cadates" type="date" name="Arrival date" required>
+              </p>
+              <p>
+                <label for="cddates">Departure Date*</label>
+                <input id="cddates" type="date" name="Departure date" required>
+              </p>
+              <p>
+                <label for="ccomment">Any comments or needs?</label>
+                <textarea id="ccomment" name="comment" required></textarea>
+              </p>
+              <p>
+                <input class="submit" type="submit" value="Submit">
+              </p>
+            </fieldset>
+          </form>
+
         </article>
 
       </section>
@@ -103,6 +121,7 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.3.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <script src="js/vendor/jquery.fittext.js"></script>
+    <script src="js/vendor/jquery.validate.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>

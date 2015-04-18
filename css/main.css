@@ -284,3 +284,9 @@ background: rgba(174, 5, 8, 0.1);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 */}
+
+/*******************Reservation Form styles*/
+
+fieldset{
+  border:dashed 2px #ae0508;
+}
