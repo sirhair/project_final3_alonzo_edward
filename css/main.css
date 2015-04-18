@@ -1,4 +1,3 @@
-
 /*****************Colors**************/
   /*bright red*/
   /*color:#ae0508;*/
@@ -14,7 +13,6 @@
 
   /*pony white*/
   /*color:#feffef;*/
-
 
 /****************************Base Elements*/
 html{
@@ -202,14 +200,13 @@ input[type=button]:active{
   outline: .25em solid #feffef;
 }
 
-
-
-/********************* Bar Menu items ******************/
+/********************* Bar page and Menu items ******************/
 .day{
   display:inline-block;
   font-weight: bold;
   padding-right:2em;
 }
+
 #menuContainer{
   margin-top: 1em;
 }
@@ -248,30 +245,10 @@ input[type=button]:active{
   margin-top:.5rem;
   position: relative;
 }
-/*#menuContainer .mix:before {
-  content: '';
-  display: inline-block;
-  padding-top: 60%;
-  vertical-align: middle;
-}*/
-
-/*#menuContainer .mix:after {
-  content: '';
-  position: absolute;
-  border: 20px solid transparent;
-  border-right-color: green;*/
-/*  top: -20px;
-  left: -20px;*/
-/*  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-*/
 
 /*******************Reservation Form styles*/
 
 .regform{
-  /*display:inline-block;*/
   max-width:100%;
   border:solid 1em #ae0508;
   padding:1em;
@@ -293,6 +270,7 @@ input[type=button]:active{
 }
 
 /********************* BREAKPOINTS ******************/
+/*spacing breakpoint*/
 @media screen and (min-width: 400px){
   body{
     margin:1em;
@@ -302,6 +280,7 @@ input[type=button]:active{
     padding:2em;
   }
 }
+
 /*sidebar breakpoint*/
 @media screen and (min-width: 750px){
   section {
