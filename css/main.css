@@ -181,7 +181,7 @@ input[type=submit]:hover{
 input[type=submit]:active{
   outline: .5em solid #feffef;
 }
-input[type=button]{
+input[type=button], .filter{
   font-family: 'Metamorphous', cursive;
   font-size: 1.1em;
   outline: .25em solid #827769;
@@ -216,3 +216,63 @@ input[type=button]:active{
     max-width:24em;
   }
 }
+
+
+/********************* Bar Menu items ******************/
+#menuContainer{
+  margin-top: 1em;
+}
+
+#menuContainer .mix{
+  /*initial styles from https://mixitup.kunkalabs.com/ sandbox*/
+  display: none;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+  margin-bottom: 4%;
+  display: none;
+  padding: .5em;
+  font-weight: 400;
+  vertical-align: top;
+/*******************added/changed values*/
+  text-align: left;
+  -webkit-backface-visibility: hidden;
+  font-size: 1.2rem;
+  line-height: 1.3em;
+  color: rgba(64, 48, 43, 0.9); /*40302b*/
+  width:30%;
+  border: dashed 2px #40302b;
+  height: 4em;
+  width: 8em;
+  margin: 0 1em 1em 0;
+/*  background: rgba(33, 19, 50, 0.4); 827769*/
+}
+
+.pence{
+  font-weight: bold;
+  font-style: italic;
+  display:block;
+  margin-top:.5rem;
+  position: relative;
+}
+/*#menuContainer .mix:before {
+  content: '';
+  display: inline-block;
+  padding-top: 60%;
+  vertical-align: middle;
+}*/
+
+/*#menuContainer .mix:after {
+  content: '';
+  position: absolute;
+  border: 20px solid transparent;
+  border-right-color: green;*/
+/*  top: -20px;
+  left: -20px;*/
+/*  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+*/}

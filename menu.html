@@ -33,30 +33,50 @@
     <main>
 
       <section>
+        <button class="filter" data-filter=".drinks, .apps, .entrees, .desserts, .beer, .vitals" data-sort="random">Everything</button>
+        <button class="filter" data-filter=".drinks">Drinks</button>
+        <button class="filter" data-filter=".beer">Beer</button>
+        <button class="filter" data-filter=".vitals">Vitality Drinks</button>
+        <button class="filter" data-filter=".apps">Appetizers</button>
+        <button class="filter" data-filter=".entrees">Entrees</button>
+        <button class="filter" data-filter=".desserts">Desserts</button>
 
-        <article>
+<!-- http://en.wikipedia.org/wiki/List_of_Middle-earth_food_and_drink 
+http://www.strangehorizons.com/2008/20080211/green-a.shtml -->
+        <div id="menuContainer">
+          <div class="mix apps" data-my-order="1"> Cheese <span class="pence">1 farthing</span></div>
+          <div class="mix apps" data-my-order="2"> Cram <span class="pence">1 farthing</span></div>
+          <div class="mix apps" data-my-order="3"> Hot Soup <span class="pence">1 farthing</span></div>
+          <div class="mix apps" data-my-order="4"> Bread and Butter <span class="pence">1 farthing</span></div>
+          <div class="mix apps" data-my-order="5"> Mushrooms <span class="pence">2 farthing</span></div>
+          <div class="mix apps" data-my-order="6"> Lembas <span class="pence">1 silver</span></div>
 
-          <header>
-            <h1>Bar and Menu</h1>
-          </header>
-            <h2>Forelithe</h2>
 
-            <p>Adrahil, father of imrahil aldúya atanatar ii alcarin beornings crossings of erui deeping echad i sedryn elves of the havens ent-draughts fréawine greenfields greymantle horn of the mark irmo kingsfoil long winter lord of eregion men of dorthonion pipe-weed</p>
-            <h2>1 Lithe</h2>
-            <p> rhimdath tintallë vision of ilúvatar wheat whiteskins. Barach curufinwë deephallow dol amroth fang glorfindel of rivendell king of arthedain king of minas morgul legolin masterstone nirnaeth arnoediad nóm old toby hornblower orod-na-thôn rhîw rose vinyalondë.</p>
-            <h2>Mid-year's Day</h2>
-            <p> Aiglos androth barley (barliman butterbur) borondir cross-roads dor daedeloth downfallen dáin i eryn lasgalen estë galadhrim gildor inglorion glæmscrafu heir of anárion house of durin khand lake núrnen linhir mountain-trolls mountains of terror nan dungortheb éomer éadig.</p>
-            <h2>2 Lithe</h2>
-            <p>Amon gwareth beren erchamion borlach brilthor elanor gamgee elf-speech elvenesse elves of lórinand erulaitalë exiles of númenor falathrim fallohides fangorn forest gerontius took golden hathol heavy-handed hob gammidge hunter </p>
+          <div class="mix entrees" data-my-order="1"> Cold Meats <span class="pence">2 farthing</span></div>
+          <div class="mix entrees" data-my-order="2"> Corn and Turnip Salad <span class="pence">2 farthing</span></div>
+          <div class="mix entrees" data-my-order="3"> Mutton <span class="pence">3 farthing</span></div>
+          <div class="mix entrees" data-my-order="4"> Petty-dwarf roots<span class="pence">3 farthing</span></div>
+          <div class="mix entrees" data-my-order="5"> Rabbit meat <span class="pence">3 farthing</span></div>
+  
 
-        </article>
+          <div class="mix desserts" data-my-order="1"> Apples and Honey <span class="pence">1 farthing</span></div>
+          <div class="mix desserts" data-my-order="2"> Seed Cake <span class="pence">1 farthing</span></div>
+          <div class="mix desserts" data-my-order="3"> Butter Scones <span class="pence">1 farthing</span></div>
+          <div class="mix desserts" data-my-order="4"> Raspberry jam and Apple Tart <span class="pence">2 farthing</span></div>
+          <div class="mix desserts" data-my-order="5"> Honey-cake <span class="pence">2 farthing</span></div>
+          <div class="mix desserts" data-my-order="6"> Blackberry Tart <span class="pence">2 farthing</span></div>
 
-        <article>
-          <h1>Reservation Form</h1>
-          <input type="button" value="Regular Button">
-          <input type="submit" value="Submit Button">
-        </article>
+          <div class="mix drinks beer" data-my-order="1"> Shire Beer <span class="pence">1 farthing</span></div>
+          <div class="mix drinks beer" data-my-order="2"> Bree Beer <span class="pence">1 farthing</span></div>
+          <div class="mix drinks" data-my-order="3"> Coffee <span class="pence">1 farthing</span></div>
+          <div class="mix drinks" data-my-order="4"> Tea <span class="pence">1 farthing</span></div>
+          <div class="mix drinks vitals" data-my-order="5"> Orc "vitality drink" <span class="pence">1 silver</span></div>
+          <div class="mix drinks vitals" data-my-order="6"> Ent-draught <span class="pence">2 silver</span></div>
+          <div class="mix drinks vitals" data-my-order="7"> Miruvor <span class="pence">3 silver</span></div>
+          <div class="mix drinks vitals" data-my-order="8"> Limpë <span class="pence">4 silver</span></div>
 
+        </div>
+        
       </section>
 
       <aside>

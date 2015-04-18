@@ -5,5 +5,11 @@ $(document).ready ( function () {
   , "img/dragon.jpg"
   , "img/entrance.jpg"
   , "img/kegs.jpg"
-], {duration: 3000, fade: 0});
+  ], {duration: 3000, fade: 0});
+
+$(function(){
+    $('#menuContainer').mixItUp();  
+});
+
+
 });
