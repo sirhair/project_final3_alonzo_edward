@@ -137,7 +137,7 @@ header .ground{
 #container > nav ul li a:link, #container > nav ul li a:visited{
   color:#feffef;
 }
-#container > nav ul .active a:link, #container > nav ul .active a:visited{
+#container > nav ul li .active:link, #container > nav ul li .active:visited{
   color:#ae0508;
  }
 #container > nav ul li a:hover, #container > nav ul .active a:hover{
